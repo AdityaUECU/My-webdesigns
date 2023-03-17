@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    background: url(image/toys-g1a62d985c_1280.jpg)fixed;
+    background-size: cover;
+    font-family: Arvo, serif;
+}
+#header{
+    background: linear-gradient(180deg, rgba(123,143,161,1) 0%, rgba(207,185,151,0.5) 100%);
+    height: 90px;
+    width: 800px;
+    line-height: 90px;
+    margin: 10px auto;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(5, 11, 41);
+
+}
+.inputContainer{
+    margin: 7px auto;
+    width: 300px;
+}
+.input{
+    height: 40px;
+    font-size: 1.5em;
+}
+#circle{
+    background-color: black;
+    margin: 0 auto;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#thickness{
+    position: relative;
+}
+#container{
+    border: 1px solid rgb(175, 172, 172);
+    height: 400px;
+    width: 800px;
+    margin: 2px auto;
+}
+#paint{
+    cursor: crosshair;
+    background-color: white;
+}
+.inputContainer2{
+    margin: 7px auto;
+    width: 399px;
+    height: 50px;
+}
+.input2{
+    width: 133px;
+    color: rgb(180, 115, 17);
+    font-size: 20px;
+    float: left;
+}
+.button{
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 7px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0,0.3);
+    display: block;
+    position: relative;
+}
+.button:hover{
+    color: white;
+    background: radial-gradient(circle, rgba(123,143,161,1) 0%, rgba(207,185,151,1) 100%);
+}
+.button:active{
+    top: 4px;
+
+}
+.erasemode{
+    background-color: rgb(17, 124, 88);
+    color: white;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Fruit Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+    <div id="container">
+        <div id="score">
+            Score: <span id="scorevalue">0</span>
+        </div>
+        <div id="trialLeft"></div>
+        <div id="correct">Correct</div>
+        <div id="wrong">Oops!! Wrong</div>
+        <div id="holder">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="instruction">Catch the Fruits</div>
+        
+        <div id="startreset">Start Game</div>
+        
+        <div id="gameover">
+            
+        </div>
+    </div>
+    <audio id="slicesound">
+        <source src="audio/knife.ogg"></source>
+        <source src="audio/knifey.mp3"></source>
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+    
+</body>
+</html>
