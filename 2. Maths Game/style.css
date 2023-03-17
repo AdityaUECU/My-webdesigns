@@ -1,0 +1,137 @@
+html{
+    background: radial-gradient(circle, white, gray);
+}
+#container{
+    height: 420px;
+    width: 600px;
+    background-color: #9dd2ea;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+}
+#score{
+    background-color: #f1ff92;
+    color: #363b12;
+    padding: 10px;
+    position: absolute;
+    left: 550px;
+    border-radius: 4px;
+    box-shadow: 0px 4px #9da853;
+    font-size: 14px;
+}
+#correct{
+    position: absolute;
+    left: 280px;
+    background-color: green;
+    padding: 11px;
+    color: white;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    left: 265px;
+    background-color: red;
+    padding: 11px;
+    color: white;
+    display: none;
+}
+#question{
+    width: 500px;
+    height: 150px;
+    margin: 50px auto 10px auto;
+    background-color: #9da0ea;
+    box-shadow: 0px 4px #535aa8;
+    border-radius: 4px;
+    font-size: 100px;
+    font-family: cursive, sans-serif;
+    text-align: center;
+}
+#instruction{
+    width: 500px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #b481d9;
+    box-shadow: 0px 4px #8153a8;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    line-height: 45px;
+}
+#choices{
+    height: 100px;
+    width: 500px;
+    margin: 8px auto;
+}
+.box{
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+    float: left;
+    margin-right: 52px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 4px rgba(0,0,0,0.4);
+    font-size: 35px;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+}
+.box:hover, #startreset:hover{
+    background-color: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+}
+.box:active, #startreset:active{
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
+}
+#box4{
+    margin-right: 0;
+}
+#box1{
+    margin-left: 2px;
+}
+#startreset{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 4px rgba(0,0,0,0.5);
+    font-size: 18px;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+}
+#time{
+    padding: 13px;
+    background-color: rgba(181, 235, 36, 0.78);
+    position: absolute;
+    top: 400px;
+    left: 445px;
+    border-radius: 8px;
+    box-shadow: 0px 4px rgb(81, 104, 20);
+    display: none;
+}
+#gameover{
+    height: 220px;
+    width: 550px;
+    background: linear-gradient(#f3ca6b, #f3706c);
+    color: #ffff;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    z-index: 2;
+    padding-top: 20px;
+    display: none;
+}
