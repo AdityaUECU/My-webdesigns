@@ -30,11 +30,8 @@ $(function(){
         score ++;
         $("#scorevalue").html(score);
         document.getElementById("slicesound").play();
-
         clearInterval(action);
-
         $("#fruit1").hide("explode", 500);
-
         setTimeout(startAction, 500);
     });
 
